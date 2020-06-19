@@ -1,0 +1,24 @@
+.book .book-item{
+    padding:10px;
+    /* height:160px; */
+    border-bottom: solid 1px #ccc;
+    display: flex;
+}
+.book .book-item .img{
+    max-width:280px;
+    /* border:solid 1px rgb(245, 240, 240); */
+}
+.book .book-item .img img{
+    width:100%;
+}
+.book .book-item .right{
+    padding-left:10px;
+    text-align: left;
+}
+.book .book-item .right .price{
+    color: red;
+    font-size: 18px;
+}
+.book .book-item .right .desc{
+    font-size: 12px;
+}

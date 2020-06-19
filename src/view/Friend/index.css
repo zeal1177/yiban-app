@@ -1,0 +1,31 @@
+.friend .main{
+    width:100%;
+    border-bottom: solid 1px #ccc;
+    padding-top:10px;
+    padding-bottom:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.friend .main .left{
+    width:80px;
+
+}
+.friend .main .left img{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+
+.friend .main .right{
+    flex:1;
+    text-align: left;
+}
+.friend .main .right .name{
+    color:#666;
+    font-weight: 700;
+    font-size: 14px;
+}
+.friend .main .right .text{
+    color:#999;
+    font-size: 12px;
+}

@@ -1,0 +1,48 @@
+.chat .main{
+    padding:10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.chat .main .content{
+    /* flex:1; */
+     display: flex;
+    flex-direction: column;
+
+}
+.chat .main .content .left {
+    width:100%;
+    text-align: left;
+}
+
+.chat .main .content .right {
+    width:100%;
+    text-align: right;
+}
+
+.chat .main .content .right .logo {
+    margin-left:10px;
+    width:100%;
+}
+.chat .main .content .right .text {
+    border:solid 1px #ccc;
+    padding:10px 15px;
+    border-radius: 10px;
+    /* margin-top:20px; */
+}
+
+.chat .main .content .left .logo {
+    margin-right:10px;
+    width:100%;
+}
+.chat .main .content .left .text {
+    border:solid 1px #ccc;
+    padding:10px 15px;
+    border-radius: 10px;
+    /* margin-top:20px; */
+}
+
+
+.main .search{
+    /* position: absolute; */
+    /* bottom: 20px; */
+}
